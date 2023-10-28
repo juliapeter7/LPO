@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LPO.iml" filepath="$PROJECT_DIR$/LPO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista1_herenca_simples/lista1_herenca_simples.iml" filepath="$PROJECT_DIR$/lista1_herenca_simples/lista1_herenca_simples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_1_polimorfismo/lista_1_polimorfismo.iml" filepath="$PROJECT_DIR$/lista_1_polimorfismo/lista_1_polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lista_2_heranca_multipla/lista_2_heranca_multipla.iml" filepath="$PROJECT_DIR$/lista_2_heranca_multipla/lista_2_heranca_multipla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obj2_prova2/obj2_prova2.iml" filepath="$PROJECT_DIR$/obj2_prova2/obj2_prova2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obj3_avaliacao1/obj3_avaliacao1.iml" filepath="$PROJECT_DIR$/obj3_avaliacao1/obj3_avaliacao1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obj3_lista1/obj3_lista1.iml" filepath="$PROJECT_DIR$/obj3_lista1/obj3_lista1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/obj3_outras_associacoes/obj3_outras_associacoes.iml" filepath="$PROJECT_DIR$/obj3_outras_associacoes/obj3_outras_associacoes.iml" />
     </modules>
   </component>
 </project>
