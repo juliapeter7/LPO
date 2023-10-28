@@ -8,6 +8,7 @@ import java.util.List;
 
 public class VendaController {
     public static void main(String[] args) {
+        //produtos e vendedor
         Produto produto1 = new Produto(1, "mouse", 50,  null);
         Produto produto2 = new Produto(2, "teclado", 45, null);
 
@@ -33,7 +34,7 @@ public class VendaController {
                 System.out.println("Data do Fornecimento: " + dataFornecimento);
                 System.out.println("Quantidade: " + fornecimento.getQuantidade());
                 System.out.println("Valor Total: " + fornecimento.getQuantidade() * fornecimento.getProduto().getPreco_unitario());
-                System.out.println("-----");
+                System.out.println("\n------------------");
             }
         }
         List <Pedido> vendas = new ArrayList<>();
@@ -51,22 +52,38 @@ public class VendaController {
         ped2.adicionarItem(item4);
         vendas.add(ped2);
 
-        // Realizar vendas
+        // vendas
+        System.out.println();
+        System.out.println("\n------------------");
         double totalVenda1 = realizarVenda(vendedor, ped1);
+        System.out.println("\n------------------");
         double totalVenda2 = realizarVenda(vendedor, ped2);
+        System.out.println("\n------------------");
+
+
+        //exibir o estoque pos venda
         System.out.println("Estoque do produto 1 depois da venda: " + produto1.getEstoque());
         System.out.println("Estoque do produto 2 depois da venda: " + produto2.getEstoque());
 
-        // Imprimir relatório de vendas
-        System.out.println("Relatório de Vendas:");
+        // relatório de vendas
+        System.out.println("\nRelatório de Vendas:");
         System.out.println("Venda 1 - Total: " + totalVenda1);
         System.out.println("Venda 2 - Total: " + totalVenda2);
     }
 
     private static double realizarVenda(Vendedor vendedor, Pedido pedido) {
         double totalPedido = pedido.calcularTotal();
-        System.out.println("Venda realizada por " + vendedor.getNome() + " - Total: " + totalPedido + "\nItem: " + pedido.getItens());
+        System.out.println("Numero do pedido: " + pedido.getNumero() + "\nVenda realizada por " + vendedor.getNome() +
+                " " +
+                "- Total: " + totalPedido +
+                "\nItens vendidos:");
+        for (Item item : pedido.getItens()) {
+            String nomeItem = item.getProduto().getNome_prod();
+            int quantidadeItem = item.getQuantidade_itens();
+            System.out.println("Item: " + nomeItem + " - Quantidade: " + quantidadeItem);
+        }
         pedido.debitarEstoque();
         return totalPedido;
     }
+
 }

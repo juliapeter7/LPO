@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="228e399f-7b9d-4eef-8320-1179b720d5e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="228e399f-7b9d-4eef-8320-1179b720d5e9" name="Changes" comment="update1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/controller/VendaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/controller/VendaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,15 @@
       <workItem from="1698460772565" duration="4056000" />
       <workItem from="1698512500516" duration="15621000" />
     </task>
+    <task id="LOCAL-00001" summary="update1">
+      <option name="closed" value="true" />
+      <created>1698530725474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698530725474</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +89,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

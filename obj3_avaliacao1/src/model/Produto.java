@@ -56,17 +56,6 @@ public class Produto {
         this.fornecedor = fornecedor;
     }
 
-    @Override
-    public String toString() {
-        return "\nProduto{" +
-                "\nCod do produto: " + codigo_prod +
-                "\nNome do produto: '" + nome_prod + '\'' +
-                "\nPreço unitário: " + preco_unitario +
-                "\nEstoque: " + estoque +
-                "\nFornecedor: " + fornecedor.getNome() +
-                '}';
-    }
-
     public void adicionarEstoque(int quantidade) {
         estoque += quantidade;
     }
