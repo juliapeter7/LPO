@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="228e399f-7b9d-4eef-8320-1179b720d5e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/controller/FuncionarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/controller/FuncionarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/Desenvolvedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/DesenvolvedorJunior.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/DesenvolvedorJunior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/DesenvolvedorPleno.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/DesenvolvedorPleno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/DesenvolvedorSenior.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/DesenvolvedorSenior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/GerenteDesenvolvimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/GerenteDesenvolvimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista1_herenca_simples/src/model/GerenteGeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista1_herenca_simples/src/model/GerenteGeral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1_polimorfismo/src/controller/JogoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_1_polimorfismo/src/controller/JogoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Passaro.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Passaro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Peixe.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_1_polimorfismo/src/model/Peixe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2_heranca_multipla/src/controller/funcionarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2_heranca_multipla/src/controller/funcionarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Desenvolvedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Investidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lista_2_heranca_multipla/src/model/Investidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj2_prova2/src/model/Associado.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj2_prova2/src/model/Associado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj2_prova2/src/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj2_prova2/src/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj2_prova2/src/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj2_prova2/src/model/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj2_prova2/src/model/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj2_prova2/src/model/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj2_prova2/src/model/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj2_prova2/src/model/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/controller/VendaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/controller/VendaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Fornecedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Fornecedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Fornecimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Fornecimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/obj3_avaliacao1/src/model/Vendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

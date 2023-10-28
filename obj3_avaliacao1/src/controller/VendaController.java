@@ -2,6 +2,7 @@ package controller;
 
 import model.*;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -35,18 +36,20 @@ public class VendaController {
                 System.out.println("-----");
             }
         }
-
+        List <Pedido> vendas = new ArrayList<>();
         Pedido ped1 = new Pedido(10, new Date());
         Item item1 = new Item(1, 10, 10, ped1, produto1);
         Item item2 = new Item(2, 10, 5, ped1, produto2);
         ped1.adicionarItem(item1);
         ped1.adicionarItem(item2);
+        vendas.add(ped1);
 
         Pedido ped2 = new Pedido(11, new Date());
         Item item3 = new Item(3, 10, 15, ped2, produto1);
         Item item4 = new Item(4, 10, 2, ped2, produto2);
         ped2.adicionarItem(item3);
         ped2.adicionarItem(item4);
+        vendas.add(ped2);
 
         // Realizar vendas
         double totalVenda1 = realizarVenda(vendedor, ped1);
@@ -62,7 +65,7 @@ public class VendaController {
 
     private static double realizarVenda(Vendedor vendedor, Pedido pedido) {
         double totalPedido = pedido.calcularTotal();
-        System.out.println("Venda realizada por " + vendedor.getNome() + " - Total: " + totalPedido);
+        System.out.println("Venda realizada por " + vendedor.getNome() + " - Total: " + totalPedido + "\nItem: " + pedido.getItens());
         pedido.debitarEstoque();
         return totalPedido;
     }
