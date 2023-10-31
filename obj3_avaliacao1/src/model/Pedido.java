@@ -48,11 +48,15 @@ public class Pedido {
         this.itens = itens;
     }
 
-    public void debitarEstoque() {
+    public void debitarEstoque() throws EstoqueInsuficienteException {
         for (Item item : itens) {
             Produto produto = item.getProduto();
             int quantidadeVendida = item.getQuantidade_itens();
+            if (produto.getEstoque() < quantidadeVendida) {
+                throw new EstoqueInsuficienteException();
+            }
             produto.adicionarEstoque(-quantidadeVendida); // Deduz a quantidade vendida do estoque
         }
     }
-}
+
+    }

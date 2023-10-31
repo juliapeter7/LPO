@@ -72,18 +72,23 @@ public class VendaController {
     }
 
     private static double realizarVenda(Vendedor vendedor, Pedido pedido) {
-        double totalPedido = pedido.calcularTotal();
-        System.out.println("Numero do pedido: " + pedido.getNumero() + "\nVenda realizada por " + vendedor.getNome() +
-                " " +
-                "- Total: " + totalPedido +
-                "\nItens vendidos:");
-        for (Item item : pedido.getItens()) {
-            String nomeItem = item.getProduto().getNome_prod();
-            int quantidadeItem = item.getQuantidade_itens();
-            System.out.println("Item: " + nomeItem + " - Quantidade: " + quantidadeItem);
+        try {
+            double totalPedido = pedido.calcularTotal();
+            System.out.println("Número do pedido: " + pedido.getNumero() + "\nVenda realizada por " + vendedor.getNome() +
+                    " - Total: " + totalPedido +
+                    "\nItens vendidos:");
+            for (Item item : pedido.getItens()) {
+                String nomeItem = item.getProduto().getNome_prod();
+                int quantidadeItem = item.getQuantidade_itens();
+                System.out.println("Item: " + nomeItem + " - Quantidade: " + quantidadeItem);
+            }
+            pedido.debitarEstoque();
+            return totalPedido;
+        } catch (EstoqueInsuficienteException e) {
+            System.out.println(e.getMessage());
+            return 0;
         }
-        pedido.debitarEstoque();
-        return totalPedido;
     }
+
 
 }
